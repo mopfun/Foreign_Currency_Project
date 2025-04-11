@@ -125,7 +125,8 @@ export class ChartDisplayComponent {
             xref: 'paper',
             x: 0.5
           },
-          yaxis: { title: { text: 'Currency' } }
+          yaxis: { title: { text: this.selectedPair } }
+          // yaxis: { title: { text: 'Currency' } }
         });
   
         // Plotly.newPlot('winLossChart', [{
